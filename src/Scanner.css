@@ -1,0 +1,94 @@
+.scanner-page {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 16px 12px 32px;
+  min-height: 100vh;
+}
+
+.scanner-header h1 {
+  margin: 0 0 4px;
+  font-size: 1.35rem;
+}
+
+.scanner-header p {
+  margin: 0 0 12px;
+  color: #444;
+  font-size: 0.9rem;
+}
+
+.scanner-view {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #111;
+}
+
+.scanner-view video {
+  width: 100% !important;
+  border-radius: 8px;
+}
+
+.scanner-error {
+  color: #b00020;
+  margin: 12px 0 0;
+}
+
+.scan-list {
+  margin-top: 18px;
+  background: #fff;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.scan-list-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.scan-list-head h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.scan-list-head button {
+  border: 1px solid #333;
+  background: #fff;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.scan-empty {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.scan-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.scan-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  background: #f4f6f8;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.scan-list li span {
+  color: #666;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
